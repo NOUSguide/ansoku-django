@@ -10,5 +10,6 @@ djangoapp_venv: "{{djangoapp_home}}/venv"
 djangoapp_src: "{{djangoapp_home}}/src"
 
 djangoapp_uwsgiproc: 10
+djangoapp_newrelic: ~
 
 djangoapp_env_template: templates/env.j2
